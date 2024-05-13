@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(./fund1.jpeg);
+    background-size: 100% 110%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    height: 100vh;
+}
+
+.container_field {
+    width: 90%;
+    max-width: 400px;
+    padding: 40px;
+    background: rgb(219 209 209 / 4%);
+    box-sizing: border-box;
+    /* box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6); */
+    border-radius: 10px;
+    
+}
+
+.container_field h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+}
+
+.user-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.user-box label {
+    font-size: 16px;
+    color: #060606;
+    font-weight: bold;
+
+}
+
+.user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #000000f5;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    font-weight: bold;
+
+}
+
+.user-box input:focus~label,
+.user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    background: #03e9f4;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: .5s;
+}
+
+button:hover {
+    background: #1dc4f7;
+}
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 0;
+
+}
+
+.result-container {
+     margin-top: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.message {
+    display: none;
+    margin-bottom: 10px;
+}
+
+.message .icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.message .text {
+    font-size: 18px;
+}
+
+.success-message {
+    color:green; 
+}
+
+.error-message {
+    color:red; /* Error text color */
+}
