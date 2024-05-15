@@ -5,7 +5,7 @@ async function calculateProfit() {
     const capital = parseFloat(document.getElementById('capital').value);
 
     try {
-        const response = await fetch(`http://localhost:8000/profit?scheme_code=${schemeCode}&start_date=${startDate}&end_date=${endDate}&capital=${capital}`, {
+        const response = await fetch(`https://mutual-fund-profit.vercel.app/profit?scheme_code=${schemeCode}&start_date=${startDate}&end_date=${endDate}&capital=${capital}`, {
             method: 'GET',
             mode: 'cors'
         });
