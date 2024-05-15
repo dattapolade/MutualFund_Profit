@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://mutual-fund-profit.vercel.app"],
+    allow_origins=["https://mutual-fund-profit-9q5jjo7kd-dattas-projects-f77e6ddf.vercel.app"],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE"],
     allow_headers=["*"],
